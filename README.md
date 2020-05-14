@@ -49,6 +49,6 @@ kubectl create ns guestbook-app
 kubectl apply -f ./demo-apps/guestbook/  
 
 
-# Demo-App: Yelb
+# Demo-App: Yelb (verify Ingress Controller)
 kubectl create ns yelb  
 kubectl apply -f ./demo-apps/yelb/  
