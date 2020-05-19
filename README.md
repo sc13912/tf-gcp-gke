@@ -59,7 +59,7 @@ kubectl apply -f ./storage/storageclass/
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-0.32.0/deploy/static/provider/cloud/deploy.yaml  
 ```
 
-## Deploy demo apps  
+## Deploy demo apps for testing 
 ### Demo-App1: GCP HipsterShop
 ```
 kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/microservices-demo/master/release/kubernetes-manifests.yaml  
