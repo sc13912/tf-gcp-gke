@@ -1,4 +1,4 @@
-project_id        = "playground-s-11-48e48f"
+project_id        = "playground-s-11-29926a"
 region            = "australia-southeast1"
 network           = "demo-vpc-network"
 subnetwork        = "demo-gke-subnetwork"

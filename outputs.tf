@@ -1,15 +1,16 @@
 output "kubernetes_endpoint" {
-#  sensitive = true
+  sensitive = true
   value     = module.gke.endpoint
 }
 
 output "client_token" {
-#  sensitive = true
+  sensitive = true
   value     = base64encode(data.google_client_config.default.access_token)
 }
 
 output "ca_certificate" {
-  value = module.gke.ca_certificate
+  sensitive = true
+  value     = module.gke.ca_certificate
 }
 
 output "cluster_name" {
